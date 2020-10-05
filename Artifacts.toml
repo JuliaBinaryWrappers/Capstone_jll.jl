@@ -1,0 +1,115 @@
+[[Capstone]]
+arch = "aarch64"
+git-tree-sha1 = "55055c4fe96141cf73bdd9861c0316780360464e"
+libc = "glibc"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "cd28b95c772f2af656dcbee161573ffcf8a7b97474125f2b644d2290d6d13bed"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.aarch64-linux-gnu.tar.gz"
+[[Capstone]]
+arch = "aarch64"
+git-tree-sha1 = "7e03d65131b573a9cdd6df5becbe8e9cf8928ce4"
+libc = "musl"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "66f9c75ff8ce9921a0a03c8aa686b3bcfb6843a2dbbf5bff5b150af7fd390812"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.aarch64-linux-musl.tar.gz"
+[[Capstone]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4492a0f3bbd9aaeb2ca2429cdcdcc36b1e9f89ca"
+libc = "glibc"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "8e97a92f1b1a970ac799fcc64949b03029198a0aa5d87f44fa3a5f90b391ba1a"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.armv7l-linux-gnueabihf.tar.gz"
+[[Capstone]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7f2d036ed4973401d9f47dbcca0415fee6a09a0e"
+libc = "musl"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "1cb748ecff1a2a7f5013373359e8a039442d8a09cdfe940946d254f6e69cd922"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.armv7l-linux-musleabihf.tar.gz"
+[[Capstone]]
+arch = "i686"
+git-tree-sha1 = "d4157708c9f98513efc83bec71d8b954f7fc4f74"
+libc = "glibc"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "2edacc201bd0ba6687acd74db365119f2bca4d4253316708f3314dba05c23620"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.i686-linux-gnu.tar.gz"
+[[Capstone]]
+arch = "i686"
+git-tree-sha1 = "6b184b4ac59dcd7869be1a2625326a8d809659e3"
+libc = "musl"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "42c04ee92d7efe5f2f3f1a3137f64264ee1ec8691e2948daa7db4db4c612693a"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.i686-linux-musl.tar.gz"
+[[Capstone]]
+arch = "i686"
+git-tree-sha1 = "181ea7cc7d01736defe939f65650444e4de9bc21"
+os = "windows"
+
+    [[Capstone.download]]
+    sha256 = "b57484cf21a4687fe63a5c81461d7de2c2dbc2996f9c692c16ccf26a6ca2fec1"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.i686-w64-mingw32.tar.gz"
+[[Capstone]]
+arch = "powerpc64le"
+git-tree-sha1 = "6cbc2882ea9978b2a1e15e606e309f562c0baac6"
+libc = "glibc"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "88cbad259d4709d53e9d9c90803db242b70fe8815154d43a8c8dafa1035ece21"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.powerpc64le-linux-gnu.tar.gz"
+[[Capstone]]
+arch = "x86_64"
+git-tree-sha1 = "4cd0c0a7c1d70f8001a27bb09f7210da261434da"
+os = "macos"
+
+    [[Capstone.download]]
+    sha256 = "9e49666729a6c0e0b109cfa8a6a1c6027bd22d2027ae86aacd9015af7715b77c"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.x86_64-apple-darwin.tar.gz"
+[[Capstone]]
+arch = "x86_64"
+git-tree-sha1 = "3247a1b37ef9468176b1cc16a6ea29098946fbfa"
+libc = "glibc"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "a1849ef40e2ed58ee087fc78e90e6e5e85b25e4de9984b6c3df8fedeba78bc4e"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.x86_64-linux-gnu.tar.gz"
+[[Capstone]]
+arch = "x86_64"
+git-tree-sha1 = "82403d8688a2c89d7c4f3a33ca04a70860beca8c"
+libc = "musl"
+os = "linux"
+
+    [[Capstone.download]]
+    sha256 = "27250be7c97d509600670cc5920b0debabf853c9d767bc2a9c7da1becb67aa15"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.x86_64-linux-musl.tar.gz"
+[[Capstone]]
+arch = "x86_64"
+git-tree-sha1 = "9c4f7c8994a893a5576029862610c945bf17b219"
+os = "freebsd"
+
+    [[Capstone.download]]
+    sha256 = "1f2ede257fa8358a1b213e88b54f818d0b0f081fef2e182198938a1de75e319d"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.x86_64-unknown-freebsd.tar.gz"
+[[Capstone]]
+arch = "x86_64"
+git-tree-sha1 = "549941337825ff7507cb4c6a04374af203c1f3e3"
+os = "windows"
+
+    [[Capstone.download]]
+    sha256 = "6b43900e9405206a56f58f9e0770d4859ea2d13e3c07ca09958be83536d2af0c"
+    url = "https://github.com/JuliaBinaryWrappers/Capstone_jll.jl/releases/download/Capstone-v4.0.2+0/Capstone.v4.0.2.x86_64-w64-mingw32.tar.gz"
