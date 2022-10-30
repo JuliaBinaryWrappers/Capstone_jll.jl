@@ -2,19 +2,19 @@
 export cstool, libcapstone
 
 JLLWrappers.@generate_wrapper_header("Capstone")
-JLLWrappers.@declare_executable_product(cstool)
 JLLWrappers.@declare_library_product(libcapstone, "libcapstone.so.4")
+JLLWrappers.@declare_executable_product(cstool)
 function __init__()
     JLLWrappers.@generate_init_header()
-    JLLWrappers.@init_executable_product(
-        cstool,
-        "bin/cstool",
-    )
-
     JLLWrappers.@init_library_product(
         libcapstone,
         "lib/libcapstone.so",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        cstool,
+        "bin/cstool",
     )
 
     JLLWrappers.@generate_init_footer()
